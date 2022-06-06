@@ -57,6 +57,10 @@ function Calculadora() {
             if(e.keyCode === 13){
                 this.realizaConta()
             }
+            if(e.keyCode === 46 || e.keyCode === 27){
+                this.clear()
+            }
+
         })
     }
 
